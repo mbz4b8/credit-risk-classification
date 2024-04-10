@@ -3,6 +3,7 @@
 
 * In this activity, lending data from loan applications was reviewed in order to find a way to predict whether an application's credit risk would be classified as a "Healthy Loan", or a "High Risk Loan".
 * The financial dataset provided consisted of historical loan applications classified as either "Healthy Loan" or "High Risk Loan". Each application included essential details that influenced the loan status such as loan size, interest rate, borrower income, debt-to-income ratio, derogatory marks (reflecting the health of the applicant's credit history), and total debt.
+   * NOTE: A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
 * A logistic regression model was selected to predict the loan application status. Logistic regression models are specifically designed for binary classification tasks, making them ideal for distinguishing between "Healthy Loan" and "High Risk Loan" categories based on the provided data. Using the essential details that influence loan status included in each application, the logistic regression model was executed to predict the loan status.
 
 ## Results
